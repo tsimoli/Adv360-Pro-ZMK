@@ -77,11 +77,11 @@
 
         MACOS {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                       &trans                  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none         &bootloader                                                 &bootloader             &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none         &kp LEFT_COMMAND  &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &macro_ver    &none                                  &none      &none                                           &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none                       &none             &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                                        &trans                  &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &bootloader                                                   &bootloader             &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &kp LEFT_COMMAND  &trans  &trans      &bt BT_CLR  &trans      &rgb_ug RGB_MEFS_CMD 5  &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &macro_ver    &trans                                  &trans      &trans                                          &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans                      &trans            &trans  &trans      &trans      &bl BL_TOG  &rgb_ug RGB_TOG                 &bl BL_INC  &bl BL_DEC  &trans  &trans  &trans
             >;
         };
     };
