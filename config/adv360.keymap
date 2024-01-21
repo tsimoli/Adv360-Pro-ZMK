@@ -39,11 +39,6 @@
             bindings = <&kp ESC>;
             key-positions = <41 42>;
         };
-
-        Layer1 {
-            bindings = <&mo 1>;
-            key-positions = <65 70>;
-        };
     };
 
     keymap {
