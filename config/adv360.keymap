@@ -32,14 +32,7 @@
     macros {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Esc {
-            bindings = <&kp ESC>;
-            key-positions = <41 42>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
